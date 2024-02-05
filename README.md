@@ -28,3 +28,5 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+An invariant is that n is a non-negative integer. This is the base case that maintains the validity of the input through the recursive calls. 
