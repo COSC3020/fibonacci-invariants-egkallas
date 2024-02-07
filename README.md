@@ -30,3 +30,5 @@ most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
 An invariant is that n is a non-negative integer. This is the base case that maintains the validity of the input through the recursive calls. 
+In terms of correctness, this guarantees the algorithm will only be provided valid inputs, and the recursive calls will only occur if valid inputs are 
+provided. This also helps prove that the algorithm will not recurse forever, because there is a base case provided.
