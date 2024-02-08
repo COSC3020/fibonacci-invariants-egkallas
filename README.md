@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/rzkZS2Jf)
 # Fibonacci Invariants
 
 Recall the definition of the Fibonacci series: the first number is 0, the second
@@ -27,3 +28,8 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+The invariant is that fibArray contains the fibonacci numbers up to n-1 when n > 1. This holds true in terms of 
+every recursive call. The base case for this invariant would be n = 2. When this is the case, fibArray contains 
+the array [0, 1], which by definition are the fibonacci numbers from n=0 through n=1. This base case can help
+prove the algorithm is correct.
